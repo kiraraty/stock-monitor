@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:name=".PnaleApp" android:label="哨灯 · Panel"
+        android:theme="@style/AppTheme" android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MarketSettingsActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AlarmSettingsActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AlarmRuleActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AlarmActivity" android:exported="false" android:excludeFromRecents="true" />
+        <activity android:name=".StyleActivity" android:exported="false" />
+        <activity android:name=".ConfigActivity" android:exported="false" />
+        <activity android:name=".DeskActivity" android:exported="false" />
+        <service android:name=".QuoteDreamService" android:label="哨灯充电行情屏保"
+            android:exported="true" android:permission="android.permission.BIND_DREAM_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name=".OverlayService" android:exported="false"
+            android:stopWithTask="false" android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="User-started live cryptocurrency prices continuously displayed in an ongoing notification, with an optional small overlay. User-configured price alarms may play a time-limited alarm tone with a visible stop notification. User can stop tracking and ringing from the notification or app." />
+        </service>
+        <receiver android:name=".TrackingReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

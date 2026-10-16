@@ -1,0 +1,37 @@
+{
+  "captured_at_ms": 1789904846882,
+  "health_http": 200,
+  "release": "/opt/pnale-monitor/releases/20260920-v05",
+  "hash_matches": true,
+  "all_previous_ids_preserved": true,
+  "old_api_news_all_ineligible": true,
+  "new_news": [
+    {
+      "id": "jinse:532964",
+      "source": "jinse",
+      "grade": 4,
+      "plan": {
+        "mode": "record_only"
+      },
+      "alert_eligible": false
+    },
+    {
+      "id": "tree:117303154231930646",
+      "source": "tree",
+      "grade": null,
+      "plan": {
+        "mode": "record_only"
+      },
+      "alert_eligible": false
+    },
+    {
+      "id": "jinse:532963",
+      "source": "jinse",
+      "grade": 4,
+      "plan": {
+        "mode": "record_only"
+      },
+      "alert_eligible": false
+    }
+  ]
+}

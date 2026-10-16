@@ -1,0 +1,9 @@
+
+PASS: fixed color overrides direction; stale label retains chosen color; switch/selected controls sync; atomic backup restore; invalid restore leaves configuration unchanged
+
+PASS: watchlist automatic validation/apply; invalid input draft survives reopen; alarm rule auto saves; incomplete rule draft survives reopen without enabling
+
+PASS: service restores saved top overlay; explicit stop persists and prevents auto resume; saved config prepared for separate process reopening test
+
+PANEL_RELIABILITY_PASS
+

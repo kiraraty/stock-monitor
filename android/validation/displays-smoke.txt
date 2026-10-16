@@ -1,0 +1,11 @@
+
+PASS: lockscreen PUBLIC + live update request; actual promoted=false
+
+PASS: actual unpin/delete PendingIntents; lockscreen hide option; foreground stopped
+
+PASS: real desk activity, live quote rendering, controls toggle, exit releases market owner
+
+PASS: top price window attached; inspect screenshot for system-bar occlusion
+
+PNALE_DISPLAYS_PASS
+

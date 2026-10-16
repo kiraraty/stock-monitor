@@ -1,0 +1,5 @@
+
+PASS: real four-coin feed; style editor controls; persisted glass/grid/color/font; actual desk grid/row render; all four chip layouts; ZEC selection; promoted request retained
+
+PNALE_STYLES_PASS
+

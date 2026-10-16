@@ -1,0 +1,9 @@
+test_cache_recovery_and_late_prints_excluded (test_moomoo_bridge.BridgeTest.test_cache_recovery_and_late_prints_excluded) ... ok
+test_eastern_fallback_and_session (test_moomoo_bridge.BridgeTest.test_eastern_fallback_and_session) ... ok
+test_real_timestamp (test_moomoo_bridge.BridgeTest.test_real_timestamp) ... ok
+test_stale_future_nan (test_moomoo_bridge.BridgeTest.test_stale_future_nan) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

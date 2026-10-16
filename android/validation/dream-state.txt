@@ -1,0 +1,27 @@
+DREAM MANAGER (dumpsys dreams)
+
+mCurrentDream=DreamRecord{token=android.os.Binder@2a6faa7, name=ComponentInfo{app.pnale.ticker/app.pnale.ticker.QuoteDreamService}, userId=0, isPreview=true, canDoze=false, isDozing=false, isWaking=false, dozeScreenState=0, dozeScreenBrightness=-1, dozeScreenBrightnessFloat=NaN}
+mForceAmbientDisplayEnabled=false
+mDreamsOnlyEnabledForDockUser=false
+mDreamsEnabledSetting=true
+mDreamsActivatedOnDockByDefault=true
+mDreamsActivatedOnChargeByDefault=false
+mDreamsActivatedOnPosturedByDefault=false
+mIsDocked=false
+mIsCharging=true
+mWhenToDream=1
+mKeepDreamingWhenUnpluggingDefault=false
+getDozeComponent()=null
+mDreamOverlayServiceName=null
+
+Dreamland:
+  mCurrentDream:
+    mToken=android.os.Binder@2a6faa7
+    mName=ComponentInfo{app.pnale.ticker/app.pnale.ticker.QuoteDreamService}
+    mIsPreviewMode=true
+    mCanDoze=false
+    mUserId=0
+    mBound=true
+    mService=android.service.dreams.IDreamService$Stub$Proxy@5a1cb54
+    mWakingGently=false
+  mSentStartBroadcast=false

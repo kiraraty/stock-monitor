@@ -1,0 +1,2313 @@
+{
+  "captured_at_ms": 1789901707851,
+  "health": {
+    "http_status": 503,
+    "body": {
+      "connected": true,
+      "market_error": "",
+      "mode": "record_only",
+      "moomoo": {
+        "enabled": true,
+        "last_heartbeat_ms": 1789901691793,
+        "permission": "LV3",
+        "subscription_quota": 100,
+        "error": "",
+        "market_states": {
+          "US.AAPL": "AFTER_HOURS_END",
+          "US.AMD": "AFTER_HOURS_END",
+          "US.META": "AFTER_HOURS_END",
+          "US.MSFT": "AFTER_HOURS_END",
+          "US.NVDA": "AFTER_HOURS_END",
+          "US.QQQ": "AFTER_HOURS_END",
+          "US.SPY": "AFTER_HOURS_END",
+          "US.TSLA": "AFTER_HOURS_END"
+        },
+        "sessions": {},
+        "sdk": "10.06.6608"
+      },
+      "news": {
+        "finnhub": {
+          "enabled": false,
+          "last_success_ms": 0,
+          "last_published_ms": 0,
+          "error": "",
+          "tier": "API key permissions unverified",
+          "coverage": "latest general+crypto pages",
+          "received": 0
+        },
+        "jinse": {
+          "enabled": true,
+          "last_success_ms": 1789901693735,
+          "last_published_ms": 1789901083000,
+          "error": "",
+          "tier": "public_website_endpoint",
+          "coverage": "latest page only; no complete historical coverage guarantee",
+          "received": 0
+        },
+        "tree": {
+          "enabled": true,
+          "last_success_ms": 1789901700364,
+          "last_published_ms": 0,
+          "error": "",
+          "tier": "public (may be delayed)",
+          "coverage": "live connection only; no automatic backfill",
+          "received": 0
+        }
+      },
+      "now_ms": 1789901707855,
+      "ok": false,
+      "reconnects": 0,
+      "started_at_ms": 1789901448967,
+      "storage_error": "",
+      "symbols": {
+        "BTCUSDT": {
+          "age_ms": 193,
+          "contract_type": "PERPETUAL",
+          "coverage_seconds": 257,
+          "gaps": 0,
+          "label": "Bitcoin",
+          "last": {
+            "time_ms": 1789901707662,
+            "price": 80347.9,
+            "trade_id": 3457079864
+          },
+          "max_trade_gap_seconds": 15,
+          "rejected": 0,
+          "source": "binance_usdm_aggTrade",
+          "state": "warming"
+        },
+        "BZUSDT": {
+          "age_ms": 4501,
+          "contract_type": "TRADIFI_PERPETUAL",
+          "coverage_seconds": 251,
+          "gaps": 0,
+          "label": "Brent crude perpetual",
+          "last": {
+            "time_ms": 1789901703354,
+            "price": 100.53,
+            "trade_id": 13830920
+          },
+          "max_trade_gap_seconds": 90,
+          "rejected": 0,
+          "source": "binance_usdm_aggTrade",
+          "state": "warming"
+        },
+        "CLUSDT": {
+          "age_ms": 739,
+          "contract_type": "TRADIFI_PERPETUAL",
+          "coverage_seconds": 256,
+          "gaps": 0,
+          "label": "WTI crude perpetual",
+          "last": {
+            "time_ms": 1789901707116,
+            "price": 97.26,
+            "trade_id": 21172443
+          },
+          "max_trade_gap_seconds": 60,
+          "rejected": 0,
+          "source": "binance_usdm_aggTrade",
+          "state": "warming"
+        },
+        "ETHUSDT": {
+          "age_ms": 203,
+          "contract_type": "PERPETUAL",
+          "coverage_seconds": 257,
+          "gaps": 0,
+          "label": "Ethereum",
+          "last": {
+            "time_ms": 1789901707652,
+            "price": 2574.15,
+            "trade_id": 3092287976
+          },
+          "max_trade_gap_seconds": 15,
+          "rejected": 0,
+          "source": "binance_usdm_aggTrade",
+          "state": "warming"
+        },
+        "US.AAPL": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.AMD": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.META": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.MSFT": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.NVDA": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.QQQ": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.SPY": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "US.TSLA": {
+          "last": {
+            "time_ms": 0,
+            "price": 0,
+            "trade_id": 0
+          },
+          "market_state": "AFTER_HOURS_END",
+          "session": "",
+          "source": "moomoo_us_ticker",
+          "state": "market_closed"
+        },
+        "XAUUSDT": {
+          "age_ms": 8895,
+          "contract_type": "TRADIFI_PERPETUAL",
+          "coverage_seconds": 248,
+          "gaps": 0,
+          "label": "Gold perpetual",
+          "last": {
+            "time_ms": 1789901698960,
+            "price": 4376.7,
+            "trade_id": 82643578
+          },
+          "max_trade_gap_seconds": 90,
+          "rejected": 0,
+          "source": "binance_usdm_aggTrade",
+          "state": "warming"
+        }
+      }
+    }
+  },
+  "events": {
+    "http_status": 200,
+    "body": {
+      "events": [
+        {
+          "id": "jinse:532959",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789901172297,
+          "published_at_ms": 1789901083000,
+          "title": "美股散户看空比例升至53%，机构称逆向指标接近反弹区间",
+          "details": {
+            "backfill_or_delayed": false,
+            "content_hash": "a4dd580e871651fd97f208e97b4d0f65e4ee5e2852ff5d03fe0d0fc7ad6d7351",
+            "importance_reasons": [],
+            "latency_ms": 89297,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532959.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "tree:1789900938477CUtteBgslftae",
+          "kind": "news",
+          "source": "tree",
+          "observed_at_ms": 1789900943606,
+          "published_at_ms": 1789900938479,
+          "title": "COINTELEGRAPH: Unlocking the trillion-token era: B.AI's global settlement layer for the agent economy",
+          "details": {
+            "backfill_or_delayed": false,
+            "content_hash": "c6086f56ff1f5a07617071dbdfe2e4a43020522748ec151c7b5e27f6e48a3243",
+            "importance_reasons": [],
+            "latency_ms": 5127,
+            "publisher": "Blogs",
+            "url": "https://cointelegraph.com/news/unlocking-the-trillion-token-era-bais-global-settlement-layer-for-the-agent-economy"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:BZUSDT:data_gap:13830631",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "BZUSDT",
+          "observed_at_ms": 1789900514928,
+          "published_at_ms": 1789900514815,
+          "title": "BZUSDT data_gap",
+          "details": {
+            "gap_ms": 16364,
+            "previous_time_ms": 1789900498451
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:CLUSDT:data_gap:21171699",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "CLUSDT",
+          "observed_at_ms": 1789900480442,
+          "published_at_ms": 1789900480257,
+          "title": "CLUSDT data_gap",
+          "details": {
+            "gap_ms": 15315,
+            "previous_time_ms": 1789900464942
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:BZUSDT:data_gap:13830624",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "BZUSDT",
+          "observed_at_ms": 1789900456595,
+          "published_at_ms": 1789900456410,
+          "title": "BZUSDT data_gap",
+          "details": {
+            "gap_ms": 25826,
+            "previous_time_ms": 1789900430584
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:XAUUSDT:data_gap:82642794",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "XAUUSDT",
+          "observed_at_ms": 1789900325949,
+          "published_at_ms": 1789900325764,
+          "title": "XAUUSDT data_gap",
+          "details": {
+            "gap_ms": 16867,
+            "previous_time_ms": 1789900308897
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:BZUSDT:data_gap:13830499",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "BZUSDT",
+          "observed_at_ms": 1789900250169,
+          "published_at_ms": 1789900250128,
+          "title": "BZUSDT data_gap",
+          "details": {
+            "gap_ms": 25846,
+            "previous_time_ms": 1789900224282
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "tree:2101620043553657337",
+          "kind": "news",
+          "source": "tree",
+          "observed_at_ms": 1789900239860,
+          "published_at_ms": 1789900239739,
+          "title": "DFINITY Foundation (@dfinity) · 30 minutes to go.\n\nX Space: Internet Computer for Nations\n\nDr. Sohail Munir (@sohailmunir), Ali Theyab Al-Zuhairi (@AliATheyab), Pierre Samaties (@PierreSamaties) and Matt Grogan (@Grogan73) on Pakistan's Sovereign Clo…",
+          "details": {
+            "backfill_or_delayed": false,
+            "content_hash": "c711420a899218d5292c0724d77e12ab9310341e45b8c8d0bc4b91f33f8861d3",
+            "importance_reasons": [],
+            "latency_ms": 121,
+            "publisher": "Tree: social/source unspecified",
+            "url": "https://x.com/dfinity/status/2101620043553657337"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:CLUSDT:data_gap:21171507",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "CLUSDT",
+          "observed_at_ms": 1789900239054,
+          "published_at_ms": 1789900238868,
+          "title": "CLUSDT data_gap",
+          "details": {
+            "gap_ms": 21436,
+            "previous_time_ms": 1789900217432
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "binance_usdm_aggTrade:BZUSDT:data_gap:13830461",
+          "kind": "data_gap",
+          "source": "binance_usdm_aggTrade",
+          "symbol": "BZUSDT",
+          "observed_at_ms": 1789900194892,
+          "published_at_ms": 1789900194706,
+          "title": "BZUSDT data_gap",
+          "details": {
+            "gap_ms": 37872,
+            "previous_time_ms": 1789900156834
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532958",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789899595000,
+          "title": "伊朗称美国除接受伊朗条件别无选择",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "2f53fd0f8d8e170a63a01b6fc455ba4773cad655a69a411af8d5e0e29428c1f3",
+            "importance_reasons": [
+              "keyword:战争"
+            ],
+            "latency_ms": 147315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532958.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532957",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789898607000,
+          "title": "Coinbase Derivatives拟推出个股及ETF永续期货，尚待CFTC批准",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "f0ba39846abee60c4328a8d061dfdf170d2ac72a840b4a9a5eae307580216791",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 1135315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532957.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532956",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789898048000,
+          "title": "阿里巴巴入股具身智能机器人研发商墨奇智能",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "b006971fc10d0e759dfbabcd010f882e03a160884774b2210b1ff8e127feebcc",
+            "importance_reasons": [],
+            "latency_ms": 1694315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532956.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532955",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789897029000,
+          "title": "慢雾余弦：警惕 ComeCome 等伪装成正常 App 的投毒盗币风险",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "140676d0d10c3981ed9f83be0f51dd02015394a77989c465003116dd6cc5042f",
+            "importance_reasons": [],
+            "latency_ms": 2713315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532955.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532954",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789896504000,
+          "title": "PeckShield：黑客非法铸造 AGIX 及 WMTx 共损失逾 1677 万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "50c164310e3aeedc05844d1f0918db3fce489eff2eab9e4e8299498f51ef6cc0",
+            "importance_reasons": [
+              "source_grade:5",
+              "keyword:黑客"
+            ],
+            "latency_ms": 3238315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532954.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532952",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789894711000,
+          "title": "ASI Alliance：FET 代币迁移合约遭攻击，损失约 156 万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "34b2d51eb61aa7c48aa14b8c568fecc3c15966e34e5c9e27b54a4b2dde24549a",
+            "importance_reasons": [],
+            "latency_ms": 5031315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532952.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532951",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789893487000,
+          "title": "BNB跌破750美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "dc0912a591ce4ff19baa640f4dfa3c5911212c0d3b52da9a92c093d0a23009b4",
+            "importance_reasons": [],
+            "latency_ms": 6255315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532951.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532950",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789892406000,
+          "title": "伊议长：伊朗条件得到满足前霍尔木兹海峡将保持关闭",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "31a338673b3403beed78e0f38b53bf4b4ef684c662305b3769f1c298653f0691",
+            "importance_reasons": [
+              "keyword:霍尔木兹",
+              "keyword:战争"
+            ],
+            "latency_ms": 7336315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532950.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532949",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789891103000,
+          "title": "江卓尔：ZEC巨鲸20万枚持仓存抛压，不参与庄币交易",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "bc10c41006f534712641ee89fc7fd5e62de1e8ab1c67bbf827ab349f754d7d28",
+            "importance_reasons": [],
+            "latency_ms": 8639315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532949.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532948",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789889716000,
+          "title": "REX 推出挂钩比特币储备公司 Strive 的 2 倍杠杆 ETF",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "9a276fcae2aa5fd466363490b17c45b835df865bb336163651ccb951c092ba61",
+            "importance_reasons": [],
+            "latency_ms": 10026315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532948.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532947",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789889223000,
+          "title": "Anthropic据悉考虑在IPO前发布新AI模型",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "8ff995718504e23bb5cbf6eec37dd8ab383fbbad9d0d81553b502b4c4cd1f54f",
+            "importance_reasons": [],
+            "latency_ms": 10519315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532947.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532946",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789887760000,
+          "title": "前财政部顾问解读CLARITY法案：部分民主党投反对票源于政治代价考量",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "bbd37c07aacff45ee9fadeff4b596a23f5ef8bc4414e6076d77df26cfbb449cd",
+            "importance_reasons": [],
+            "latency_ms": 11982315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532946.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532945",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789886894000,
+          "title": "瑞银：全球AI领域资本支出2027年升至1.4万亿美元，九成增量来自内存涨价",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "f4b2dbf298f738631f3cfa909d9e12f500e5f7360b8f274db649d3ae9c921a74",
+            "importance_reasons": [],
+            "latency_ms": 12848315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532945.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532944",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789885620000,
+          "title": "BP突破0.7美元，24小时涨幅达到25.58%",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "89f2fddfe7c2eb80bfdf79e563aca7b7c0f7e5336fdbb2940c7a43c81184b1ce",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 14122315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532944.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532943",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789885094000,
+          "title": "Backpack发行的代币化股票交易量较前7天同期增加1.933亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "3023509135e7f99112b90d1a760dcc1b6765bdd5f1a177b230e9bd8f0f19ef69",
+            "importance_reasons": [],
+            "latency_ms": 14648315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532943.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532942",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789884488000,
+          "title": "某地址追高加仓GSTOCK，累计投入26.1万美元，现浮盈5.1万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "0917ce154bcd2a87f702a61bece19e72d887c3b1cf0e23c8de503b0ea4148dd5",
+            "importance_reasons": [],
+            "latency_ms": 15254315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532942.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532941",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789883246000,
+          "title": "Gravity：G代币在各平台间出现显著价格错位，官方正推进桥接解决方案",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "e12ecd4fe46a27ea92aa3f95279de3bb20b8bbc0d5369f2030be2be4bd0de43a",
+            "importance_reasons": [],
+            "latency_ms": 16496315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532941.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532940",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789883117000,
+          "title": "Peter Schiff：SEC代币化股票创新豁免利空比特币",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "b33edcbf3fa29aa1a008a48b2d2960ed84dff65466ccfe0856a23fc3a7c8fea8",
+            "importance_reasons": [],
+            "latency_ms": 16625315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532940.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532939",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789880560000,
+          "title": "土耳其破获涉加密货币跨国诈骗网络，交易规模约 2.66 亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "07205d764ea9c178a7fd492d14e864b1c5545ae124d7a5e42c83e557c289a503",
+            "importance_reasons": [],
+            "latency_ms": 19182315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532939.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532938",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789878390000,
+          "title": "Cardano创始人：未来5至10年加密行业将深度融入AI，数据中心扩张难以持续",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "368d3c961087da9107643a247f838265caf0c8ff119501ea3eb9eb8a6373e5dd",
+            "importance_reasons": [],
+            "latency_ms": 21352315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532938.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532937",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789876818000,
+          "title": "金色午报 | 9月20日午间重要动态一览",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a092b314a1f679ce007a5f65cb45267be9ed69980a3bb3b62cde76f7d7cb6859",
+            "importance_reasons": [
+              "source_grade:5",
+              "source_selected",
+              "keyword:黑客"
+            ],
+            "latency_ms": 22924315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532937.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532936",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789876713000,
+          "title": "Vitalik：不会放弃隐私，反而将进一步加码",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "6625f7375324c36eeb927e0942b27365a1ec31fae6b569b19b11a1c974160cbb",
+            "importance_reasons": [],
+            "latency_ms": 23029315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532936.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532935",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789875307000,
+          "title": "疑似AKE做市商从币安Alpha提取2.16亿枚代币",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "e8b1d573e6130e9cc6042eb6a6866e7a343c37e2e03392c2261a40c0cacfd2a1",
+            "importance_reasons": [],
+            "latency_ms": 24435315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532935.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532934",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789874229000,
+          "title": "巴拉圭一周内查处两处非法加密矿场，查获 35 台矿机",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "12cac41898ee5d9b6b919f9f2ee96802a99e8c563da21a22d0b059e541ef2a13",
+            "importance_reasons": [],
+            "latency_ms": 25513315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532934.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532933",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789874036000,
+          "title": "Polymarket美国平台遭盗用借记卡欺诈，涉案金额超1000万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "ef5437e713eb6f0e07ca2cfbbdc5cac35802f670a53ef82cb569f66f55f2aead",
+            "importance_reasons": [],
+            "latency_ms": 25706315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532933.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532932",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789872265000,
+          "title": "ETH跌破2600美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "d1ab8f2280f8e40f0a320b644f64a2a426c7ae1f140cb3bd1b790eadb27dbf95",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 27477315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532932.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532931",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789872262000,
+          "title": "Multicoin Capital管理合伙人：加密货币市场现在有点亢奋，不要过度交易",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "31dcad5709e8f683c9be8e1e40daaf19f279a6f95857bd3bc5c0aead0bc963f3",
+            "importance_reasons": [],
+            "latency_ms": 27480315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532931.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532930",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789871725000,
+          "title": "Uniswap过去30天代币化股票DeFi TVL增加8280万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "20ac8c045aecd108cb30e143c5fadf9e49d8ef787164766d2e83db4a6169295f",
+            "importance_reasons": [],
+            "latency_ms": 28017315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532930.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532929",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789871551000,
+          "title": "Robinhood Chain 已处理超 6 亿笔交易，向以太坊支付费用仅约 4.9 万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "58d2dc52a36fc507afba88a2ee35546669e5ba2b68d4178b21922ba387b16d6a",
+            "importance_reasons": [],
+            "latency_ms": 28191315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532929.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532928",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789870378000,
+          "title": "Galaxy：SEC 新规对第三方代币化股票设限，Robinhood 现有模式不符合要求",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "7e6e0915216ed6af9a7c66b8e6d2cdee3d6287ab240c997ea037d17e80d27c15",
+            "importance_reasons": [],
+            "latency_ms": 29364315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532928.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532927",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789869379000,
+          "title": "Arthur Hayes喊单ENA：看涨至0.5美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "eb6b17518d818527cfdf2bc7207fdbf40215b783a39e6b1c4a35bb6f4856a46c",
+            "importance_reasons": [],
+            "latency_ms": 30363315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532927.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532926",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789868566000,
+          "title": "Kalshi申请推出与美国个股挂钩永续合约",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "3125a42fbc11a5e160f836db19303b86ea5e3bf2203d424d328a45ade966247d",
+            "importance_reasons": [],
+            "latency_ms": 31176315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532926.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532925",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789868245000,
+          "title": "疑似AKE做市商从币安Alpha提取2.16亿枚代币",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "e8b1d573e6130e9cc6042eb6a6866e7a343c37e2e03392c2261a40c0cacfd2a1",
+            "importance_reasons": [],
+            "latency_ms": 31497315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532925.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532924",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789867535000,
+          "title": "跨链资产协议Universal宣布逐步关停，60天内用户可赎回资产",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "c16bb642b629b703f021039a49af8ca34c085072fff552b071bd91ebeae72678",
+            "importance_reasons": [],
+            "latency_ms": 32207315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532924.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532923",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789865695000,
+          "title": "朝鲜黑客组织通过虚假招聘入侵3万多台设备，从超7000个加密钱包中盗取约1070万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a13cf0eb9caa27ce9da55bcd4a26ee9103742c20b0a2b260a3606f5baf8ca387",
+            "importance_reasons": [
+              "keyword:黑客"
+            ],
+            "latency_ms": 34047315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532923.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532922",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789864880000,
+          "title": "Serenity：考虑入驻中国社交平台，征集发帖平台建议",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "811a74be52b05e332a371fd87dd306f14a601fa10e3a42ba24e3ed4d0f1572c4",
+            "importance_reasons": [],
+            "latency_ms": 34862315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532922.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532921",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789863135000,
+          "title": "Michael Saylor：保护数字资产创新的最佳方式是扩大采用",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "cc4f0f9aa18ad73d34762c54cb436adfd0e2a9f40ed1c9010b77a9b4ad06bc94",
+            "importance_reasons": [],
+            "latency_ms": 36607315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532921.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532920",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789863069000,
+          "title": "派盾：Fetch.ai和NuNet遭攻击总损失约200万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "9b89429ec115c067949b4c7356d720a7245b6efd0397b65e7f27a455491e9a3e",
+            "importance_reasons": [
+              "keyword:被盗"
+            ],
+            "latency_ms": 36673315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532920.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532919",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789862994000,
+          "title": "伊朗向美国开出7项谈判条件",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "db437a3d3216064466f7b1829254c3c05e4e2fb026b308535cd5d02568c68378",
+            "importance_reasons": [],
+            "latency_ms": 36748315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532919.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532918",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789861668000,
+          "title": "Circle旗下公链Arc已上线代理支付，为x402提供托管式接入路径",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "bd5501069ecaae82d184acaa146fffdfe8909ebce68a07e11f18cedb55dd8365",
+            "importance_reasons": [],
+            "latency_ms": 38074315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532918.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532917",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789860526000,
+          "title": "金色晨讯 | 9月20日隔夜重要动态一览",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "9e05a401d9bd470fd141809e108a83c41f60489169c1074d9071b79890fe39b1",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 39216315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532917.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532916",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789858836000,
+          "title": "交易员：若 BTC 再创新高 资金或沿风险曲线外溢 总市值上看 10–12 万亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "40b578fb8fb0cf4169ef357aa7f6ccb237965e898af38097f4fb782ca6cf3a5b",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 40906315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532916.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532915",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789857275000,
+          "title": "Midnight 准备在主网开放智能合约部署",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "080eaf5afc181b77f0b19747bcfff691eb1694d28174c12692258f636f2df08c",
+            "importance_reasons": [],
+            "latency_ms": 42467315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532915.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532914",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789855235000,
+          "title": "英伟达5名高管披露持股变动：黄仁勋被代扣4.57万股用于缴税",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "d47e7ee50e754c4da21e2bcf5272b945dc5c401be5c14cba5142b90e05cac56d",
+            "importance_reasons": [],
+            "latency_ms": 44507315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532914.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532913",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789854994000,
+          "title": "Cardano 创始人 ：加密将“吃掉”AI",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "2fb25756bf4e87056dc6b559a7787332e5ea7d91a65543ffa1ace741a3834a19",
+            "importance_reasons": [],
+            "latency_ms": 44748315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532913.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532912",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789853554000,
+          "title": "VanEck 抨击 Metaplanet 高管股权稀释",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "62578851694b3809f2f2b9ae28d3c86304a99fda11d1365c976574668c2587d3",
+            "importance_reasons": [],
+            "latency_ms": 46188315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532912.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532911",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789851633000,
+          "title": "里拉跌至纪录新低 比特币价格逼近 400 万里拉",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "5532960b4c2e0fb3079ee39bb310b8cc8b4a13c213bccf990ae09f89c3ad92f1",
+            "importance_reasons": [],
+            "latency_ms": 48109315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532911.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532910",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789850073000,
+          "title": "Grayscale Zcash ETF 规模逼近 10 亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "7d1936d3aef280f13acc638e75d3f6c91e3ec9b0dfd222e06bc6a20b46bca9a6",
+            "importance_reasons": [],
+            "latency_ms": 49669315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532910.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532909",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789848512000,
+          "title": "富达：比特币“冬天”已结束 预测开启新一轮四年牛市",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "24e703c12e37bf88ac635e70d2f480e3a1df235260dbce331cbf61ca2c58fd75",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 51230315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532909.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532908",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789847612000,
+          "title": "日元稳定币 JPYC 登陆 Upbit 后一度涨破 3 日元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "8d06b81ae2eae89ee4b030c31b06dee2efd3fdc4f3a7bcc15929aad5d01ac4c8",
+            "importance_reasons": [],
+            "latency_ms": 52130315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532908.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532907",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789845871000,
+          "title": "Visa 将关闭 Crossmint Meme 币返利漏洞",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "8a4413bc34c33d3cff1f025480c9cd9b4e6bb1b1a22463f04205a09907fb781a",
+            "importance_reasons": [],
+            "latency_ms": 53871315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532907.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532906",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789844431000,
+          "title": "Revolut 携手 Bridge 启动欧元稳定币 EURR 发行",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "1192b2e6f68e22a72c47572e5a2f2e539b7c0a1b99e27aa8c663eb5fe3c63694",
+            "importance_reasons": [],
+            "latency_ms": 55311315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532906.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532905",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789842810000,
+          "title": "特朗普宣布组建\"AI Force\" 称 AI 或占美国 GDP 25%",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "3309b9e2d76d9b0b1241c540e898992081051c4d91019ac03728bfb70fb3047e",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 56932315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532905.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532904",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789840830000,
+          "title": "Clarity Act 折戟参议院 SEC 与 CFTC 接管加密监管主导权",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "55c12cf1d405417c60747ad68078670db4fde2acd28441920b058d53b1a9bb9c",
+            "importance_reasons": [],
+            "latency_ms": 58912315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532904.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532903",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789839951000,
+          "title": "BTC突破81500美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "1e109a4030a31ca502558795d2460e0c23892d3000693d43ca7a775d0c747047",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 59791315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532903.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532902",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789839029000,
+          "title": "近24小时5422枚BTC流入交易所钱包",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "5abf049123d5e8e80d1f6b46535b8801e7780383c4cf89c2646c7d5f6ded2170",
+            "importance_reasons": [],
+            "latency_ms": 60713315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532902.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532901",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789837896000,
+          "title": "BTC跌破81800美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "86e68e40b07eb1d3fceab5a375b8ed40c923ca968fa23aa33dcb06e0685a26f3",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 61846315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532901.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532900",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789837229000,
+          "title": "逾百名专家呼吁对AI企业加强独立监管",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "0afea25a79384e6eb132fa5836fcf0422e667eeb3533516c58aad774efdb4e6f",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 62513315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532900.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532899",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789836280000,
+          "title": "VanEck 将 Metaplanet 薪酬体系评级为差",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "7e03cbd4a8054bcb8fcb60a45ca1c36862b67e5be65614521bd2b4bfc4495f6d",
+            "importance_reasons": [],
+            "latency_ms": 63462315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532899.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532898",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789835417000,
+          "title": "TAO跌破270美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "0287bf6085c10bf5e5d6980393d0c9d45b353c46c6bc1bca3e1ceb7a8113a757",
+            "importance_reasons": [],
+            "latency_ms": 64325315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532898.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532897",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789833939000,
+          "title": "特朗普发起投票 提议以\"超级智能（SI）\"等表述替代\"人工智能\"",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "2a184785caec23f6dce98004ca7b218651024547367a645f4b3f367455ff56ba",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 65803315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532897.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532896",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789833658000,
+          "title": "Paid宣布Pons代币发行上线  80%费用经XMoney分发给用户",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "61e84616cfbb7906a84ae47ec735d939969f5e7efce3925eb53e350f133f0d40",
+            "importance_reasons": [],
+            "latency_ms": 66084315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532896.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532895",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789833628000,
+          "title": "SpaceX在纳斯达克100指数的权重升至2.82%",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a0035671bdd9cbbf477de563c317914aec42e2dd48770bf671eb2924790ace8f",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 66114315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532895.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532894",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789831487000,
+          "title": "Evercore ISI上调苹果目标价至380美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "c0ef56809922ab020a4a19e75fc5dbf2fadb8f58b0ead76000c2ca6723ed6006",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 68255315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532894.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532893",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789830900000,
+          "title": "Binance安全公告：iPhone用户请检查否安装FomoPeek，其可利用iOS漏洞获取设备最高权限",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "4f70d7ffeb338c302464dc7f442b461fa07fba681b9439b1dd0ca4d536ae7922",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 68842315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532893.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532892",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789829731000,
+          "title": "伊朗消息人士：美方称已准备好与伊朗进行谈判",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a5fa8fbcfa2ff656909230b24cbd4f26c4ede7ba0b30c2dce85357a4b4341ee2",
+            "importance_reasons": [
+              "source_grade:5",
+              "keyword:霍尔木兹"
+            ],
+            "latency_ms": 70011315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532892.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532891",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789827755000,
+          "title": "Blink 暂停服务并调查安全事件",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "e95413b7db51ca694661f9dc63cd761bf1b9bd81e0a23105425d3ed5ff0ddf9e",
+            "importance_reasons": [],
+            "latency_ms": 71987315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532891.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532890",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789826355000,
+          "title": "马斯克称X平台的使用量创下历史新高",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "6294d19b197f572f0aaa87b335a0fd7247457ce184bc87da5f83a6cb9136d500",
+            "importance_reasons": [],
+            "latency_ms": 73387315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532890.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532889",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789825916000,
+          "title": "Hyperliquid在24小时内销毁242万美元HYPE",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "2d8caec0a8eaabf3b825eecf1659251bd876fa19b4a93f116cd2d1b443c1e973",
+            "importance_reasons": [],
+            "latency_ms": 73826315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532889.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532888",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789824696000,
+          "title": "ZachXBT：zkSNARKs 项目类似 Ordinals 骗局",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "1f00466c8d695108d2e8be5ad800471c8b316b2429bec54b10a820bef7e924ed",
+            "importance_reasons": [],
+            "latency_ms": 75046315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532888.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532887",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789823937000,
+          "title": "美国中央司令部司令：美方过去两月协助逾10亿桶原油通过霍尔木兹海峡",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "802bace52997c4bcce2f5b599837b7b5cccc4958f25143583d8572dc55c43221",
+            "importance_reasons": [
+              "keyword:霍尔木兹",
+              "keyword:原油"
+            ],
+            "latency_ms": 75805315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532887.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532886",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789823833000,
+          "title": "BNB突破770美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "ac9bdd0803a3741824e97e2ba7633e13390ec4cbda5fb75a53c24100c851b2db",
+            "importance_reasons": [],
+            "latency_ms": 75909315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532886.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532885",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789822884000,
+          "title": "金色晚报 | 9月19日晚间重要动态一览",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "e7e75bc5492962c4b29ea980de5af25c679089142ecda6b2c23e4c38519bf295",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 76858315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532885.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532884",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789822104000,
+          "title": "PlanB：比特币站上50周均线上看8.9万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "1852f9e56301f643fc41abd78efcb3f8baaacf6c43e937c4395d997d9ac3681b",
+            "importance_reasons": [],
+            "latency_ms": 77638315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532884.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532883",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789821563000,
+          "title": "Bastion 获 OCC 条件性批准推进国家信托银行牌照申请",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "2136e6708e1b7c469a28fa85eb2cf75ca1e91cd56d02b6d622701d931e89d846",
+            "importance_reasons": [],
+            "latency_ms": 78179315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532883.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532882",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789820182000,
+          "title": "Garrett Jin 此前从币安提取的 20.2 万枚 ZEC 已浮盈 2.28 亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "191425d0d8e98236a3e75164bdc1dba4dc63706a1f27aabdaf5200c1299cd1d2",
+            "importance_reasons": [],
+            "latency_ms": 79560315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532882.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532881",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789818459000,
+          "title": "MultiversX 正调查主网上某潜在问题",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "9516935c4feff47c3b59715a9f5a2ad4fc4dc17384d7ef5db54912de86c347c1",
+            "importance_reasons": [],
+            "latency_ms": 81283315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532881.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532880",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789816772000,
+          "title": "分析师：BTC/黄金比升至 18.55，重回 50 周均线上方",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a2d7a096fe7fda4630864b7f16eeb56cb326c6807c66ec1f7d176458d7bffb67",
+            "importance_reasons": [
+              "keyword:黄金"
+            ],
+            "latency_ms": 82970315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532880.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532879",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789815589000,
+          "title": "慢雾：黑灰产已实现对iOS用户的攻击链条，受影响版本为iOS 13至26.5",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "9649bf54a6cfebcb6fd13b1d70a5c68e2494ea35c5699ea74565d9b369ca9385",
+            "importance_reasons": [],
+            "latency_ms": 84153315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532879.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532878",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789814783000,
+          "title": "USDC Treasury在Solana链上新增铸造2.5亿枚USDC",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "9370c02144b3aa2db9c46878bbc9e043d6ec9d218d66b784284b9e87e5ac592f",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 84959315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532878.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532877",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789812920000,
+          "title": "AVAX突破9美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "db889ea9971f9e7303a04e335a8cc17f79c445ff997983be6dc894efc62d19d0",
+            "importance_reasons": [],
+            "latency_ms": 86822315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532877.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532876",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789812900000,
+          "title": "支付平台 Dtcpay 完成 2500 万美元 A 轮融资",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "06526e2820f1a129a98bdfb36229409e73874cb216dc18d96219fd73ef737967",
+            "importance_reasons": [],
+            "latency_ms": 86842315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532876.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532875",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789811776000,
+          "title": "麻吉大哥持续加仓做多，总持仓规模已达 1.31 亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "45ecc350b838f043acd949f335f725e457a00b273969d2af61fbd0fc94f1a7b8",
+            "importance_reasons": [],
+            "latency_ms": 87966315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532875.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532874",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789811536000,
+          "title": "OpenAI预计未来五年将烧掉近2800亿美元现金 收入将增长10倍",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a56c726c37c5472bef52c780e91eddbb9c1216b33a1d33eecb77bacd105e31c1",
+            "importance_reasons": [
+              "source_grade:5"
+            ],
+            "latency_ms": 88206315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532874.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532873",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789810592000,
+          "title": "江卓尔：交易盈利核心是仓位管理、交易策略与币种选择",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "de2b97a6ea4a02051e14dff7eb38f5757d44ff11d7f6fa3e199e1a3fce02fd59",
+            "importance_reasons": [
+              "keyword:CPI"
+            ],
+            "latency_ms": 89150315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532873.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532872",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789810571000,
+          "title": "香港前银行经理因16亿美元虚假信用证及加密贿赂被判四年",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "bb06953e7b8581dbc5adfd566bb86ce1ff3d18f5eea63b1fcef5ee2bc3424b23",
+            "importance_reasons": [],
+            "latency_ms": 89171315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532872.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532871",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789810472000,
+          "title": "AR突破4.65美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "ab9b99e6c4ed6ca56d75fc68204d5da228cf64a464393811a562e5dd0ac76f20",
+            "importance_reasons": [],
+            "latency_ms": 89270315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532871.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532870",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789810360000,
+          "title": "HYPE突破94.5美元，续创历史新高",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "a536a4311736b897a20c7d41aeab7050ab5bd9a14c81795537e7636d3fe1dc23",
+            "importance_reasons": [],
+            "latency_ms": 89382315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532870.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532869",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789809910000,
+          "title": "Claude Code全面开放，接入AGENTS.md",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "f5f6389cef447c882fe6f06967e841c0d06e8905c583966a4f705be3d70904de",
+            "importance_reasons": [],
+            "latency_ms": 89832315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532869.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532868",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789809126000,
+          "title": "同声传译大模型Qwen3.8-LiveTranslate正式发布",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "d595861a5f7e036314c3a651c9da06102b13ce3ae0e7a652f519657a0b8b6e63",
+            "importance_reasons": [],
+            "latency_ms": 90616315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532868.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532867",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789808225000,
+          "title": "Garrett Jin 代理巨鲸实体曾持有 100 亿美元 BTC，过去一年多次巨额亏损",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "04160758361063b626ee58375e7b330c43e538da8b00c60c03b69deee2288cd3",
+            "importance_reasons": [],
+            "latency_ms": 91517315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532867.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532866",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789806956000,
+          "title": "AR突破4.5美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "3ebadb9b1fc8c282a2e7c8a5db8e9d216a39ebfe748adf40fd84d5e63943d060",
+            "importance_reasons": [
+              "source_selected"
+            ],
+            "latency_ms": 92786315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532866.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532865",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789806811000,
+          "title": "美国防部：与伊朗的战争已耗资451亿美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "19f9b7b19604f6ccb7a14b821179e4d2a856513ded69ef5f0242f3c42d5c109f",
+            "importance_reasons": [
+              "keyword:战争"
+            ],
+            "latency_ms": 92931315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532865.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532864",
+          "kind": "important_news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789805418000,
+          "title": "慢雾：FomoPeek 1.1–1.2版本含恶意代码，或导致私钥及助记词泄露",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "1ca2bd226c0444f57e0497b566f47fc7d58262cee47e14cc02b23dc32df98cb5",
+            "importance_reasons": [
+              "keyword:被盗"
+            ],
+            "latency_ms": 94324315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532864.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532863",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789803972000,
+          "title": "某巨鲸两日内累计购买逾 9000 枚 ETH，浮盈约 122 万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "32cd8c1b7fb54c416260650978baaceec9a7a14683869fe40f0d84b20f24b726",
+            "importance_reasons": [],
+            "latency_ms": 95770315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532863.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532862",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789802592000,
+          "title": "Matrixport相关鲸鱼向币安存入1000枚BTC，价值8106万美元",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "7b9e362b2825ca87269a38d3026464445fc52f1d52d9f46a279d31aaa7e5069a",
+            "importance_reasons": [],
+            "latency_ms": 97150315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532862.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532861",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789801076000,
+          "title": "稳定币基础设施提供商Bastion经美国OCC批准，获得全国性信托银行牌照",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "18ef8bf9510ea10712b6e079df0c515ffb840d3e9ae3e7764123d3500b00e901",
+            "importance_reasons": [],
+            "latency_ms": 98666315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532861.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532860",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789800234000,
+          "title": "超越特斯拉，比特币重返全球资产市值排名前15",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "f305928d33aa36e84b73fedaa9a778d6e5b0c6ce44578cd28348cc33b135e77d",
+            "importance_reasons": [],
+            "latency_ms": 99508315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532860.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532859",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789799321000,
+          "title": "过去7天USDC流通量约减少3亿枚",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "f4df03e24b3c1601336297e7946ebde380d249c37886d9b6938703dc90580f0f",
+            "importance_reasons": [],
+            "latency_ms": 100421315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532859.html"
+          },
+          "alert_eligible": false
+        },
+        {
+          "id": "jinse:532858",
+          "kind": "news",
+          "source": "jinse",
+          "observed_at_ms": 1789899742315,
+          "published_at_ms": 1789799245000,
+          "title": "预言机Switchboard宣布停止运营",
+          "details": {
+            "backfill_or_delayed": true,
+            "content_hash": "64e25e3fabdf94d4d8cf715cfac634ed9ca326a1742732208edea243dd4ac541",
+            "importance_reasons": [],
+            "latency_ms": 100497315,
+            "publisher": "金色财经",
+            "url": "https://jinse.com.cn/lives/532858.html"
+          },
+          "alert_eligible": false
+        }
+      ],
+      "limit": 1000,
+      "order": "newest_first",
+      "retained_in_memory": 5000,
+      "storage_error": ""
+    }
+  },
+  "rules": {
+    "http_status": 200,
+    "body": {
+      "cooldown_seconds": 300,
+      "gap_seconds": 15,
+      "moomoo": {
+        "enabled": true,
+        "python": "/opt/pnale-monitor/venv/bin/python",
+        "script": "/opt/pnale-monitor/current/moomoo_bridge.py",
+        "host": "127.0.0.1",
+        "port": 11111,
+        "symbols": [
+          "US.SPY",
+          "US.QQQ",
+          "US.AAPL",
+          "US.NVDA",
+          "US.TSLA",
+          "US.MSFT",
+          "US.AMD",
+          "US.META"
+        ],
+        "thresholds": [
+          1.5,
+          2.5,
+          3.5
+        ],
+        "wick_percent": 2.5
+      },
+      "news_keywords": [
+        "美联储",
+        "非农",
+        "CPI",
+        "利率决议",
+        "降息",
+        "加息",
+        "霍尔木兹",
+        "原油",
+        "黄金",
+        "黑客",
+        "被盗",
+        "暂停提现",
+        "战争",
+        "停火",
+        "FOMC",
+        "Federal Reserve",
+        "rate cut",
+        "rate hike",
+        "exploit",
+        "hack",
+        "ceasefire"
+      ],
+      "symbols": [
+        {
+          "max_trade_gap_seconds": 15,
+          "symbol": "BTCUSDT",
+          "label": "Bitcoin",
+          "thresholds": [
+            1,
+            1.5,
+            2
+          ],
+          "wick_percent": 1.5
+        },
+        {
+          "max_trade_gap_seconds": 15,
+          "symbol": "ETHUSDT",
+          "label": "Ethereum",
+          "thresholds": [
+            1.2,
+            1.8,
+            2.5
+          ],
+          "wick_percent": 2
+        },
+        {
+          "max_trade_gap_seconds": 90,
+          "symbol": "XAUUSDT",
+          "label": "Gold perpetual",
+          "thresholds": [
+            0.5,
+            0.8,
+            1.2
+          ],
+          "wick_percent": 0.8
+        },
+        {
+          "max_trade_gap_seconds": 60,
+          "symbol": "CLUSDT",
+          "label": "WTI crude perpetual",
+          "thresholds": [
+            1,
+            1.5,
+            2
+          ],
+          "wick_percent": 1.5
+        },
+        {
+          "max_trade_gap_seconds": 90,
+          "symbol": "BZUSDT",
+          "label": "Brent crude perpetual",
+          "thresholds": [
+            1,
+            1.5,
+            2
+          ],
+          "wick_percent": 1.5
+        }
+      ],
+      "wick_recovery_fraction": 0.6,
+      "wick_window_seconds": 300,
+      "windows_seconds": [
+        60,
+        180,
+        300
+      ]
+    }
+  },
+  "service": {
+    "MainPID": "2835336",
+    "NRestarts": "0",
+    "ExecMainStartTimestamp": "Sun 2026-09-20 18:50:48 CST",
+    "MemoryCurrent": "97579008",
+    "CPUUsageNSec": "1381218000",
+    "ActiveState": "active",
+    "SubState": "running"
+  },
+  "release": "/opt/pnale-monitor/releases/20260920-v04",
+  "binary_sha256": "0eb00a92626eb5a8fd3f0e8309d9753ed734f702a9c139eabb250895746c675f",
+  "config_sha256": "5a773de54dc3abf8f8c42e054abde384d5cd2d442efb5b54cfa1b2645b9bb2b6",
+  "persisted": {
+    "files": [
+      {
+        "file": "events-2026-09-20.jsonl",
+        "records": 110,
+        "bytes": 49865
+      }
+    ],
+    "unique_ids": 110,
+    "duplicate_ids": 0,
+    "kinds": {
+      "news": 73,
+      "important_news": 30,
+      "data_gap": 7
+    },
+    "sources": {
+      "jinse": 101,
+      "binance_usdm_aggTrade": 7,
+      "tree": 2
+    },
+    "news_alert_eligible": {
+      "False": 73
+    }
+  }
+}

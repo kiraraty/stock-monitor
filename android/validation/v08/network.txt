@@ -1,0 +1,9 @@
+
+PASS: injected direct-path failure automatically switched to pinned TLS relay, real fresh ETH/BTC WS and 60 candles
+
+PASS: blocked WS falls back to HTTP; actual exchange timestamps advance; alarms paused in HTTP mode; WS automatically reconnects with contiguous backfill
+
+PASS: actual airplane-mode network loss marked disconnected; ConnectivityManager restored WS after network returned
+
+PANEL_NETWORK_RESILIENCE_PASS
+

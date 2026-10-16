@@ -1,0 +1,1 @@
+Requested #89C3FF (137,195,255); actual overlay rectangle [540,20,880,120]; nearest sRGB pixel (152,204,252), squared RGB distance 315, pixels within squared distance 300 = 0. Antialiasing/scaling may change rendered pixel values.

@@ -1,0 +1,16 @@
+NRestarts=0
+MemoryCurrent=6832128
+Id=pnale-relay.service
+ActiveState=active
+SubState=running
+
+NRestarts=0
+MemoryCurrent=34320384
+Id=pnale-monitor.service
+ActiveState=active
+SubState=running
+bc3d36def2ebb8c5331339457007cb5a499ea9516c6181107a35c279b2fec5bf  /opt/pnale-relay/current/pnale-relay
+notBefore=Sep 21 11:34:54 2026 GMT
+notAfter=Sep 20 11:34:54 2029 GMT
+sha256 Fingerprint=57:2F:95:6D:BE:97:4E:40:35:D3:70:25:EB:7F:EF:04:52:A2:B2:B1:62:92:FB:D9:AD:C4:FE:AC:58:31:6E:73
+{"ok":true,"service":"panel-public-market-relay"}

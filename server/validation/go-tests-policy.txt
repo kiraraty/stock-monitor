@@ -1,0 +1,66 @@
+=== RUN   TestFullWindowAndCooldown
+--- PASS: TestFullWindowAndCooldown (0.00s)
+=== RUN   TestShortObservationCannotFire
+--- PASS: TestShortObservationCannotFire (0.00s)
+=== RUN   TestGapResetsCoverage
+--- PASS: TestGapResetsCoverage (0.00s)
+=== RUN   TestRejectStaleFutureDuplicateAndInvalid
+--- PASS: TestRejectStaleFutureDuplicateAndInvalid (0.00s)
+=== RUN   TestWickOrderAndRecovery
+--- PASS: TestWickOrderAndRecovery (0.00s)
+=== RUN   TestLowBeforeHighIsNotDownWick
+--- PASS: TestLowBeforeHighIsNotDownWick (0.00s)
+=== RUN   TestRiseAndUpReversal
+--- PASS: TestRiseAndUpReversal (0.00s)
+=== RUN   TestResetRetainsCooldown
+--- PASS: TestResetRetainsCooldown (0.00s)
+=== RUN   TestAsOfBaselineNotFuture
+--- PASS: TestAsOfBaselineNotFuture (0.00s)
+=== RUN   TestDifferentWindowsHaveDifferentIDs
+--- PASS: TestDifferentWindowsHaveDifferentIDs (0.00s)
+=== RUN   TestIntrasecondCrashStillTriggers
+--- PASS: TestIntrasecondCrashStillTriggers (0.00s)
+=== RUN   TestStoreDurabilityDedupAndPartialFailure
+--- PASS: TestStoreDurabilityDedupAndPartialFailure (0.01s)
+=== RUN   TestNewsHistoricalDoesNotAlertAndPersistsOnce
+2026/09/20 19:31:13 event id=jinse:1 kind=important_news symbol=
+2026/09/20 19:31:13 event id=jinse:2 kind=important_news symbol=
+--- PASS: TestNewsHistoricalDoesNotAlertAndPersistsOnce (0.01s)
+=== RUN   TestHighestNewsOnlyAndNormalDelivery
+=== RUN   TestHighestNewsOnlyAndNormalDelivery/jinse-5
+2026/09/20 19:31:13 event id=jinse:x kind=important_news symbol=
+=== RUN   TestHighestNewsOnlyAndNormalDelivery/jinse-4
+2026/09/20 19:31:13 event id=jinse:x kind=important_news symbol=
+=== RUN   TestHighestNewsOnlyAndNormalDelivery/jinse-6
+2026/09/20 19:31:13 event id=jinse:x kind=important_news symbol=
+=== RUN   TestHighestNewsOnlyAndNormalDelivery/jinse-0
+2026/09/20 19:31:13 event id=jinse:x kind=important_news symbol=
+=== RUN   TestHighestNewsOnlyAndNormalDelivery/tree-5
+2026/09/20 19:31:13 event id=tree:x kind=important_news symbol=
+=== RUN   TestHighestNewsOnlyAndNormalDelivery/finnhub-5
+2026/09/20 19:31:13 event id=finnhub:x kind=important_news symbol=
+--- PASS: TestHighestNewsOnlyAndNormalDelivery (0.03s)
+    --- PASS: TestHighestNewsOnlyAndNormalDelivery/jinse-5 (0.01s)
+    --- PASS: TestHighestNewsOnlyAndNormalDelivery/jinse-4 (0.00s)
+    --- PASS: TestHighestNewsOnlyAndNormalDelivery/jinse-6 (0.01s)
+    --- PASS: TestHighestNewsOnlyAndNormalDelivery/jinse-0 (0.00s)
+    --- PASS: TestHighestNewsOnlyAndNormalDelivery/tree-5 (0.00s)
+    --- PASS: TestHighestNewsOnlyAndNormalDelivery/finnhub-5 (0.00s)
+=== RUN   TestLegacyNewsCannotReplayAsNotification
+--- PASS: TestLegacyNewsCannotReplayAsNotification (0.01s)
+=== RUN   TestTreeParserUsesBodyAndSource
+--- PASS: TestTreeParserUsesBodyAndSource (0.00s)
+=== RUN   TestFinnhubAuthorizationAndBothCategories
+--- PASS: TestFinnhubAuthorizationAndBothCategories (0.00s)
+=== RUN   TestJinseSchemaAndGrades
+--- PASS: TestJinseSchemaAndGrades (0.00s)
+=== RUN   TestHealthAndAuth
+--- PASS: TestHealthAndAuth (0.00s)
+=== RUN   TestRealWSDecodeAndContextCancellation
+2026/09/20 19:31:13 market websocket connected
+--- PASS: TestRealWSDecodeAndContextCancellation (0.01s)
+=== RUN   TestMoomooSessionBoundaryAndClosedHealth
+--- PASS: TestMoomooSessionBoundaryAndClosedHealth (0.00s)
+PASS
+ok  	pnale/monitor	2.034s
+?   	pnale/monitor/cmd/probe	[no test files]

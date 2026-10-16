@@ -1,0 +1,25 @@
+[Unit]
+Description=Panel public market HTTPS relay
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pnale
+Group=pnale
+# Same token as the monitor; without it the /panel/ path stays disabled.
+EnvironmentFile=-/etc/pnale-monitor/secrets.env
+ExecStart=/opt/pnale-relay/current/pnale-relay
+Restart=on-failure
+RestartSec=5
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+MemoryMax=192M
+TasksMax=64
+LimitNOFILE=1024
+
+[Install]
+WantedBy=multi-user.target

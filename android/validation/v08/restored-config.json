@@ -1,0 +1,27 @@
+{
+  "app": "app.pnale.ticker",
+  "version": 1,
+  "savedAt": 1789992312235,
+  "watchlist": {
+    "networkMode": "relay",
+    "topPrice": true,
+    "watchlistDraft": "BTC, ETH, XAU, CL, BZ",
+    "compact": true,
+    "coins": "BTC,ETH,XAU,CL,BZ",
+    "trackingMode": "top",
+    "topFont": "mono",
+    "trackingEnabled": false,
+    "topColor": -7748609,
+    "topDirection": false,
+    "x": 540,
+    "y": 38,
+    "topPositionSet": true,
+    "overlayOpacityPercent": 100,
+    "selected": "ETH"
+  },
+  "alarm": {
+    "editorDraft": "",
+    "deliveryMode": "auto",
+    "rules": "[{\"id\":\"4550caf9-6e04-4fd0-abad-406028b5e6ff\",\"name\":\"自动保存验证\",\"coin\":\"BTC\",\"kind\":\"drop\",\"value\":2,\"minutes\":3,\"enabled\":false,\"duration\":60,\"sound\":true,\"vibration\":true,\"repeat\":false,\"cooldownMinutes\":30,\"lastFired\":0}]"
+  }
+}

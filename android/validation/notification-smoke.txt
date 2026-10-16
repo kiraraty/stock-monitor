@@ -1,0 +1,15 @@
+
+PASS: device REST + WS ETH/BTC; 60 candles; all tickers and kline received
+
+PASS: rapid switch to BTC 1h; contiguous candles; reconnect/backfill
+
+PASS: typed watchlist, persistence and invalid input protection
+
+PASS: activity ready; live data available for on-demand chart
+
+PASS: notification-only foreground service without overlay permission; background WS advances; multi-coin prices; actual notification switch/stop PendingIntents; notification removed and engine paused
+
+SKIP: overlay interaction requires user-granted SYSTEM_ALERT_WINDOW
+
+PNALE_SMOKE_PASS
+

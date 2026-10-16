@@ -1,0 +1,10 @@
+.build/
+.build-xcode/
+dist/
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+server/pnale-monitor

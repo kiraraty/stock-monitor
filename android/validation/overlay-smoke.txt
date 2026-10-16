@@ -1,0 +1,13 @@
+
+PASS: device REST + WS ETH/BTC; 60 candles; all tickers and kline received
+
+PASS: rapid switch to BTC 1h; contiguous candles; reconnect/backfill
+
+PASS: typed watchlist, persistence and invalid input protection
+
+PASS: activity ready; live data available for on-demand chart
+
+PASS: real overlay window, background WS, collapse/expand, stop action
+
+PNALE_SMOKE_PASS
+

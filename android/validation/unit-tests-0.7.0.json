@@ -1,0 +1,42 @@
+[
+  {
+    "name": "app.pnale.ticker.AlarmScheduleTest",
+    "tests": "5",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "timestamp": "2026-09-20T11:51:10.804Z",
+    "hostname": "caoyingxudeMacBook-Pro.local",
+    "time": "0.021"
+  },
+  {
+    "name": "app.pnale.ticker.DisplayStyleTest",
+    "tests": "3",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "timestamp": "2026-09-20T11:51:10.827Z",
+    "hostname": "caoyingxudeMacBook-Pro.local",
+    "time": "0.008"
+  },
+  {
+    "name": "app.pnale.ticker.MarketModelsTest",
+    "tests": "8",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "timestamp": "2026-09-20T11:51:10.838Z",
+    "hostname": "caoyingxudeMacBook-Pro.local",
+    "time": "0.013"
+  },
+  {
+    "name": "app.pnale.ticker.PriceAlarmTest",
+    "tests": "10",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "timestamp": "2026-09-20T11:51:10.853Z",
+    "hostname": "caoyingxudeMacBook-Pro.local",
+    "time": "0.02"
+  }
+]

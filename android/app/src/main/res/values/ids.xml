@@ -1,0 +1,6 @@
+<resources>
+    <item name="settings_refresh" type="id" />
+    <item name="ui_base_text_size" type="id" />
+    <item name="ui_font_bold" type="id" />
+    <item name="ui_custom_font" type="id" />
+</resources>

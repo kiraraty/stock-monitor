@@ -1,0 +1,5 @@
+
+PASS: new process reloaded saved colors/font/watchlist/on-state and restored top overlay
+
+PANEL_REOPEN_PASS
+

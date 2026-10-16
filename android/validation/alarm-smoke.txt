@@ -1,0 +1,9 @@
+
+PASS: default off; UI saves/copies/arms independent rules; persisted custom 3m window; actual USAGE_ALARM playback and notification
+
+PASS: stop PendingIntent releases playback/notification/foreground; 10s timeout also clears alarm
+
+PASS: home live quote/chart, renamed app, navigation control click
+
+PANEL_ALARMS_PASS
+

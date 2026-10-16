@@ -1,0 +1,39 @@
+[Unit]
+Description=Panel market anomaly and news monitor (record only)
+After=network-online.target moomoo-opend.service
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=10
+
+[Service]
+Type=simple
+User=pnale
+Group=pnale
+WorkingDirectory=/var/lib/pnale-monitor
+Environment=HOME=/var/lib/pnale-monitor
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=-/etc/pnale-monitor/secrets.env
+ExecStart=/opt/pnale-monitor/current/pnale-monitor -config /etc/pnale-monitor/config.json
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=15
+KillMode=control-group
+UMask=0077
+StateDirectory=pnale-monitor
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/pnale-monitor
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+MemoryHigh=240M
+MemoryMax=320M
+CPUQuota=40%
+TasksMax=64
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+
+PASS: persisted app serif/120% without cumulative scaling; independent top mono font/custom #12ABEF; actual overlay has 1314 matching color pixels
+
+PASS: auto daytime notification without USAGE_ALARM/fullscreen; auto night USAGE_ALARM playback; manual vibration override; stop releases playback/service
+
+PANEL_APPEARANCE_SCHEDULE_PASS
+

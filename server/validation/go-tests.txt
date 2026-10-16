@@ -1,0 +1,2 @@
+ok  	pnale/monitor	1.992s
+?   	pnale/monitor/cmd/probe	[no test files]

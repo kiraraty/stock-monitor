@@ -1,0 +1,85 @@
+VibratorManagerService:
+  VibrationSettings:
+    vibrateOn = true
+    vibrateInputDevices = false
+    batterySaverMode = false
+    ringerMode = normal
+    onWirelessCharger = false
+    processStateCache size = 51
+    VibrationIntensities:
+      UNKNOWN = MEDIUM, default: MEDIUM
+      ALARM = MEDIUM, default: MEDIUM
+      TOUCH = MEDIUM, default: MEDIUM
+      MEDIA = MEDIUM, default: MEDIUM
+      RINGTONE = MEDIUM, default: MEDIUM
+      PHYSICAL_EMULATION = MEDIUM, default: MEDIUM
+      NOTIFICATION = MEDIUM, default: MEDIUM
+      HARDWARE_FEEDBACK = MEDIUM, default: MEDIUM
+      COMMUNICATION_REQUEST = MEDIUM, default: MEDIUM
+      ACCESSIBILITY = MEDIUM, default: MEDIUM
+      IME = MEDIUM, default: MEDIUM
+    VibrationConfig:
+      ignoreVibrationsOnWirelessCharger = false
+      defaultVibrationAmplitude = 255
+      hapticChannelMaxAmplitude = 0.0
+      rampStepDurationMs = 5
+      rampDownDurationMs = 0
+      requestVibrationParamsForUsages = [ALARM, RINGTONE, NOTIFICATION, COMMUNICATION_REQUEST]
+      requestVibrationParamsTimeoutMs = 50
+  
+  VibrationScaler:
+    ScaleLevels:
+      VERY_LOW = 0.6
+      LOW = 0.8
+      NONE = 1.0
+      HIGH = 1.2
+      VERY_HIGH = 1.4
+    AdaptiveHapticsScales:
+  
+  Vibrators:
+    Vibrator (id=1):
+      currentState = IDLE
+      currentAmplitude = 0.0
+      vibratorInfoLoadSuccessful = true
+      vibratorStateListener size = 0
+      VibratorInfo:
+        id = 1
+        capabilities = [ON_CALLBACK, PERFORM_CALLBACK, COMPOSE_EFFECTS, COMPOSE_PWLE_EFFECTS, ALWAYS_ON_CONTROL, AMPLITUDE_CONTROL, FREQUENCY_CONTROL, EXTERNAL_CONTROL, EXTERNAL_AMPLITUDE_CONTROL, CAP_COMPOSE_PWLE_EFFECTS_V2]
+        capabilitiesFlags = 1111111111111
+        supportedEffects = [CLICK, TICK]
+        supportedPrimitives = [NOOP(0ms), CLICK(100ms), THUD(100ms), SPIN(100ms), QUICK_RISE(100ms), SLOW_RISE(100ms), QUICK_FALL(100ms), TICK(100ms), LOW_TICK(100ms)]
+        supportedBraking = [NONE, CLAB]
+        primitiveDelayMax = 1000
+        compositionSizeMax = 256
+        pwlePrimitiveDurationMax = 16383
+        pwleSizeMax = 126
+        q-factor = 11.0
+        frequencyProfileLegacy = FrequencyProfileLegacy{mFrequencyRange=[140.0, 160.0], mMinFrequency=140.0, mResonantFrequency=150.0, mFrequencyResolution=1.0, mMaxAmplitudes count=21}
+        frequencyProfile = FrequencyProfile{mResonantFrequency=150.0, mFrequenciesHz=[30.0, 46.0, 50.0, 55.0, 62.0, 65.0, 83.0, 85.0, 92.0, 107.0, 115.0, 123.0, 135.0, 144.0, 145.0, 150.0, 175.0, 181.0, 190.0, 200.0, 204.0, 205.0, 224.0, 235.0, 242.0, 253.0, 263.0, 278.0, 294.0, 300.0], mOutputAccelerationsGs=[0.01, 0.09, 0.1, 0.12, 0.66, 1.38, 0.82, 0.85, 1.05, 1.63, 1.72, 1.81, 2.23, 2.47, 2.5, 3.0, 2.51, 2.41, 2.28, 2.08, 1.96, 1.9, 1.7, 1.5, 1.46, 1.41, 1.39, 1.37, 1.35, 1.34], mMinFrequencyHz=30.0, mMaxFrequencyHz=300.0, mMaxOutputAccelerationGs=3.0}
+        mMaxEnvelopeEffectSize = 16
+        mMinEnvelopeEffectControlPointDurationMillis = 20
+        mMaxEnvelopeEffectControlPointDurationMillis = 1000
+  
+  CurrentVibration:
+    null
+  
+  NextVibration:
+    null
+  
+  
+  Recent vibrations:
+    ALARM:
+      09-20 19:54:26.835 |   effect |    cancelled_by_user | duration:  1246ms | start: 19:54:26.845 | end: 19:54:28.081 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: ALARM | audioUsage=USAGE_ALARM | app.pnale.ticker (uid=10217, deviceId=0) | reason: null | played: [Step=0ms(amplitude=0.00),Step=500ms(amplitude=1.00),Step=350ms(amplitude=0.00),Step=500ms(amplitude=1.00),Step=700ms(amplitude=0.00)], repeat=0 | original: [Step=0ms(amplitude=0.00),Step=500ms(amplitude=-1.00),Step=350ms(amplitude=0.00),Step=500ms(amplitude=-1.00),Step=700ms(amplitude=0.00)], repeat=0
+      09-20 19:54:28.353 |   effect |    cancelled_by_user | duration:   389ms | start: 19:54:28.355 | end: 19:54:28.743 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: ALARM | audioUsage=USAGE_ALARM | app.pnale.ticker (uid=10217, deviceId=0) | reason: null | played: [Step=0ms(amplitude=0.00),Step=500ms(amplitude=1.00),Step=350ms(amplitude=0.00),Step=500ms(amplitude=1.00),Step=700ms(amplitude=0.00)], repeat=0 | original: [Step=0ms(amplitude=0.00),Step=500ms(amplitude=-1.00),Step=350ms(amplitude=0.00),Step=500ms(amplitude=-1.00),Step=700ms(amplitude=0.00)], repeat=0
+      09-20 19:54:28.834 |   effect |    cancelled_by_user | duration:   861ms | start: 19:54:28.835 | end: 19:54:29.694 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: ALARM | audioUsage=USAGE_ALARM | app.pnale.ticker (uid=10217, deviceId=0) | reason: null | played: [Step=0ms(amplitude=0.00),Step=500ms(amplitude=1.00),Step=350ms(amplitude=0.00),Step=500ms(amplitude=1.00),Step=700ms(amplitude=0.00)], repeat=0 | original: [Step=0ms(amplitude=0.00),Step=500ms(amplitude=-1.00),Step=350ms(amplitude=0.00),Step=500ms(amplitude=-1.00),Step=700ms(amplitude=0.00)], repeat=0
+    
+  
+  
+  Aggregated vibration history:
+  
+  
+  VibratorControlService:
+    isVibratorControllerRegistered = false
+    hasPendingVibrationParamsRequest = false
+    
+    Vibration parameters update history:

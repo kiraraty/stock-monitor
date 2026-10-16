@@ -1,0 +1,32 @@
+[
+  {
+    "name": "app.pnale.ticker.MarketModelsTest",
+    "tests": "8",
+    "failures": "0",
+    "errors": "0"
+  },
+  {
+    "name": "app.pnale.ticker.PriceAlarmTest",
+    "tests": "10",
+    "failures": "0",
+    "errors": "0"
+  },
+  {
+    "name": "app.pnale.ticker.DisplayStyleTest",
+    "tests": "3",
+    "failures": "0",
+    "errors": "0"
+  },
+  {
+    "name": "app.pnale.ticker.AlarmScheduleTest",
+    "tests": "5",
+    "failures": "0",
+    "errors": "0"
+  },
+  {
+    "name": "app.pnale.ticker.ConfigCodecTest",
+    "tests": "5",
+    "failures": "0",
+    "errors": "0"
+  }
+]

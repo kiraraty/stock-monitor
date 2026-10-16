@@ -1,0 +1,285 @@
+{
+  "categories": {
+    "general": {
+      "http_status": 200,
+      "rows": 100,
+      "valid_rows": 100,
+      "latest_published_ms": 1789891903000
+    },
+    "crypto": {
+      "http_status": 200,
+      "rows": 89,
+      "valid_rows": 89,
+      "latest_published_ms": 1789895667000
+    }
+  },
+  "configuration": {
+    "enabled": true,
+    "secret_file_mode": "0o600",
+    "key_stored_in": "/etc/pnale-monitor/secrets.env"
+  },
+  "service_status": {
+    "connected": true,
+    "market_error": "",
+    "mode": "record_only",
+    "moomoo": {
+      "enabled": true,
+      "last_heartbeat_ms": 0,
+      "permission": "",
+      "subscription_quota": 0,
+      "error": "",
+      "market_states": {},
+      "sessions": {},
+      "sdk": ""
+    },
+    "news": {
+      "finnhub": {
+        "enabled": true,
+        "last_success_ms": 1789902352104,
+        "last_published_ms": 1789895667000,
+        "error": "",
+        "tier": "API key permissions unverified",
+        "coverage": "latest general+crypto pages",
+        "received": 189
+      },
+      "jinse": {
+        "enabled": true,
+        "last_success_ms": 1789902352981,
+        "last_published_ms": 1789901923000,
+        "error": "",
+        "tier": "public_website_endpoint",
+        "coverage": "latest page only; no complete historical coverage guarantee",
+        "received": 0
+      },
+      "tree": {
+        "enabled": true,
+        "last_success_ms": 1789902352357,
+        "last_published_ms": 0,
+        "error": "",
+        "tier": "public (may be delayed)",
+        "coverage": "live connection only; no automatic backfill",
+        "received": 0
+      }
+    },
+    "now_ms": 1789902353136,
+    "ok": false,
+    "reconnects": 0,
+    "started_at_ms": 1789902351166,
+    "storage_error": "",
+    "symbols": {
+      "BTCUSDT": {
+        "age_ms": 227,
+        "contract_type": "PERPETUAL",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "Bitcoin",
+        "last": {
+          "time_ms": 1789902352909,
+          "price": 80284.1,
+          "trade_id": 3457083936
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "binance_usdm_aggTrade",
+        "state": "warming"
+      },
+      "BZUSDT": {
+        "age_ms": 1789902353136,
+        "contract_type": "TRADIFI_PERPETUAL",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "Brent crude perpetual",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 90,
+        "rejected": 0,
+        "source": "binance_usdm_aggTrade",
+        "state": "warming"
+      },
+      "CLUSDT": {
+        "age_ms": 1789902353136,
+        "contract_type": "TRADIFI_PERPETUAL",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "WTI crude perpetual",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 60,
+        "rejected": 0,
+        "source": "binance_usdm_aggTrade",
+        "state": "warming"
+      },
+      "ETHUSDT": {
+        "age_ms": 950,
+        "contract_type": "PERPETUAL",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "Ethereum",
+        "last": {
+          "time_ms": 1789902352186,
+          "price": 2569.81,
+          "trade_id": 3092296027
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "binance_usdm_aggTrade",
+        "state": "warming"
+      },
+      "US.AAPL": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.AAPL",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.AMD": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.AMD",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.META": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.META",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.MSFT": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.MSFT",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.NVDA": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.NVDA",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.QQQ": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.QQQ",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.SPY": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.SPY",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "US.TSLA": {
+        "age_ms": 1789902353136,
+        "contract_type": "",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "US.TSLA",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 15,
+        "rejected": 0,
+        "source": "moomoo_us_ticker",
+        "state": "warming"
+      },
+      "XAUUSDT": {
+        "age_ms": 1789902353136,
+        "contract_type": "TRADIFI_PERPETUAL",
+        "coverage_seconds": 0,
+        "gaps": 0,
+        "label": "Gold perpetual",
+        "last": {
+          "time_ms": 0,
+          "price": 0,
+          "trade_id": 0
+        },
+        "max_trade_gap_seconds": 90,
+        "rejected": 0,
+        "source": "binance_usdm_aggTrade",
+        "state": "warming"
+      }
+    }
+  },
+  "stored_finnhub": {
+    "events": 189,
+    "important": 10,
+    "alert_eligible": 0
+  }
+}

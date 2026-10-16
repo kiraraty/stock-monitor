@@ -1,0 +1,3 @@
+PASS: Actual Android ACTION_CREATE_DOCUMENT saved Panel-config-2026-09-21.json in Downloads.
+PASS: Actual ACTION_OPEN_DOCUMENT selected that file; app displayed concrete restore summary and confirmed 配置已恢复.
+PASS: Exported and restored watchlist/alarm payloads are identical.

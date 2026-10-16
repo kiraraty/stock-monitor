@@ -1,0 +1,11 @@
+
+PASS: XAU live quote=4376.83; 60 candles and WS updates
+
+PASS: CL live quote=97.33; 60 candles and WS updates
+
+PASS: BZ live quote=100.55; 60 candles and WS updates
+
+PASS: home-to-settings navigation, collapsed sections, typed commodity watchlist persistence, return home and coin controls
+
+PANEL_COMMODITIES_PASS
+
